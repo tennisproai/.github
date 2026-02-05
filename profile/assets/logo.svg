@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" fill="none">
-  <!-- Orange ball (left) -->
-  <circle cx="60" cy="50" r="40" stroke="#d45c11" stroke-width="12" fill="none"/>
-  <!-- Orange ball seam -->
-  <line x1="44" y1="20" x2="76" y2="80" stroke="#d45c11" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80">
+  <!-- Background Deep Clay for visibility -->
+  <rect x="0" y="0" width="120" height="80" rx="8" fill="#221710"/>
 
-  <!-- Gray ball (right) - visible on white background -->
-  <circle cx="140" cy="50" r="40" stroke="#888888" stroke-width="12" fill="none"/>
-  <!-- Gray ball seam -->
-  <line x1="124" y1="80" x2="156" y2="20" stroke="#888888" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <!-- Infinity Ball - Two interlocking circles -->
+  <!-- Orange circle (left) -->
+  <circle cx="45" cy="40" r="28" stroke="#D45C11" stroke-width="8" fill="none"/>
+
+  <!-- Court White circle (right) -->
+  <circle cx="75" cy="40" r="28" stroke="#FCF9F8" stroke-width="8" fill="none"/>
 </svg>

@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tennisproai/.github/main/profile/assets/logo.svg" alt="TennisProAI Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/tennisproai/.github/main/profile/assets/logo.svg" alt="TennisProAI - Infinity Ball" width="240"/>
 </p>
 
-<h1 align="center">TennisProAI</h1>
+<h1 align="center">Tennis Pro <span style="color: #D45C11;">AI</span></h1>
 
 <p align="center">
-  <strong>AI-powered tennis stroke analysis using Apple Watch sensor data</strong>
+  <strong>The Infinity Loop of Excellence</strong><br/>
+  <em>AI-powered tennis stroke analysis using Apple Watch sensor data</em>
 </p>
 
 <p align="center">
@@ -19,7 +20,9 @@
 
 ## Overview
 
-TennisProAI is a complete machine learning pipeline for classifying tennis strokes in real-time using motion sensors from Apple Watch. The system captures accelerometer, gyroscope, and rotation data during tennis sessions and uses deep learning to identify different types of strokes.
+Tennis Pro AI is a complete machine learning pipeline for classifying tennis strokes in real-time using motion sensors from Apple Watch. The system captures accelerometer, gyroscope, and rotation data during tennis sessions and uses deep learning to identify different types of strokes.
+
+> *"An unbroken cycle of data-driven coaching — where every swing is recorded, analyzed, and transformed into improvement."*
 
 ## Architecture
 
@@ -40,7 +43,7 @@ TennisProAI is a complete machine learning pipeline for classifying tennis strok
 
 | Repository | Description |
 |------------|-------------|
-| **tennis-data-labeler** | PyQt5 GUI application for visualizing sensor data, synchronizing with video, and manually labeling tennis strokes |
+| **tennis-data-labeler** | PyQt5 GUI for visualizing sensor data, video sync, and manual stroke labeling |
 | **tennis-model-training** | LSTM neural network training pipeline with feature engineering and CoreML export |
 | **tennis-shot-detector** | iOS/watchOS app for real-time stroke detection |
 
@@ -48,9 +51,9 @@ TennisProAI is a complete machine learning pipeline for classifying tennis strok
 
 | Stroke | Description |
 |--------|-------------|
-| 🎾 **Forehand** | Forehand drive |
-| 🎾 **Backhand** | Backhand drive |
-| ⏸️ **No Stroke** | Non-stroke movements |
+| **Forehand** | Forehand drive |
+| **Backhand** | Backhand drive |
+| **No Stroke** | Non-stroke movements |
 
 ## Technology Stack
 
@@ -58,7 +61,7 @@ TennisProAI is a complete machine learning pipeline for classifying tennis strok
 |-------|--------------|
 | **Data Collection** | Apple Watch (accelerometer, gyroscope, rotation rate) |
 | **Annotation** | Python, PyQt5, Matplotlib |
-| **ML Training** | TensorFlow/Keras, LSTM neural networks, scikit-learn |
+| **ML Training** | TensorFlow/Keras, LSTM, scikit-learn |
 | **Experiment Tracking** | Weights & Biases |
 | **Deployment** | CoreML for iOS/watchOS |
 
@@ -67,12 +70,13 @@ TennisProAI is a complete machine learning pipeline for classifying tennis strok
 | Metric | Value |
 |--------|-------|
 | **Accuracy** | 93% on test set |
-| **Architecture** | 2-layer LSTM (64 → 32 units) with dropout |
-| **Features** | 17 engineered features from raw sensor data |
-| **Sequence Length** | 200 timesteps (2 seconds at 100Hz) |
+| **Architecture** | 2-layer LSTM (64 → 32 units) |
+| **Features** | 17 engineered features |
+| **Sequence Length** | 200 timesteps (2s @ 100Hz) |
 
 ---
 
 <p align="center">
-  <sub>Built with ❤️ for tennis players who want to improve their game</sub>
+  <sub>Built for tennis players who want to improve their game</sub><br/>
+  <sub><strong>Continuous Progression</strong> • <strong>Dynamic Balance</strong> • <strong>Infinite Potential</strong></sub>
 </p>

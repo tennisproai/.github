@@ -43,9 +43,10 @@ Tennis Pro AI is a complete machine learning pipeline for classifying tennis str
 
 | Repository | Description |
 |------------|-------------|
+| **tennis-shot-detector** | iOS/watchOS app for real-time stroke detection |
 | **tennis-data-labeler** | PyQt5 GUI for visualizing sensor data, video sync, and manual stroke labeling |
 | **tennis-model-training** | LSTM neural network training pipeline with feature engineering and CoreML export |
-| **tennis-shot-detector** | iOS/watchOS app for real-time stroke detection |
+| **website** | Marketing website and landing page |
 
 ## Supported Strokes
 

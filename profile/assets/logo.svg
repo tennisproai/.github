@@ -4,8 +4,8 @@
   <!-- Orange ball seam -->
   <line x1="44" y1="20" x2="76" y2="80" stroke="#d45c11" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
 
-  <!-- White ball (right) -->
-  <circle cx="140" cy="50" r="40" stroke="#ffffff" stroke-width="12" fill="none"/>
-  <!-- White ball seam -->
-  <line x1="124" y1="80" x2="156" y2="20" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <!-- Gray ball (right) - visible on white background -->
+  <circle cx="140" cy="50" r="40" stroke="#888888" stroke-width="12" fill="none"/>
+  <!-- Gray ball seam -->
+  <line x1="124" y1="80" x2="156" y2="20" stroke="#888888" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
 </svg>

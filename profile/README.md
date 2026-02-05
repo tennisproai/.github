@@ -5,79 +5,76 @@
 <h1 align="center">Tennis Pro <span style="color: #D45C11;">AI</span></h1>
 
 <p align="center">
-  <strong>The Infinity Loop of Excellence</strong><br/>
-  <em>AI-powered tennis stroke analysis using Apple Watch sensor data</em>
+  <strong>Your AI tennis coach. Just a watch, and play.</strong>
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#architecture">Architecture</a> •
-  <a href="#repositories">Repositories</a> •
-  <a href="#technology-stack">Tech Stack</a>
+  Professional analysis without cameras or complex sensors.<br/>
+  Just your Apple Watch and your game.
 </p>
 
 ---
 
-## Overview
+## The Vision
 
-Tennis Pro AI is a complete machine learning pipeline for classifying tennis strokes in real-time using motion sensors from Apple Watch. The system captures accelerometer, gyroscope, and rotation data during tennis sessions and uses deep learning to identify different types of strokes.
+> *"We created Tennis Pro AI so every player, regardless of level or budget, could access high-level coaching intelligence."*
+>
+> — Jérôme C., Founder
 
-> *"An unbroken cycle of data-driven coaching — where every swing is recorded, analyzed, and transformed into improvement."*
+## What We Analyze
 
-## Architecture
+| Pillar | What We Track |
+|--------|---------------|
+| **Technique** | Swing speed, impact point, strike precision — analyzed at millisecond precision |
+| **Physical** | Calories burned, heart rate zones, court movement intensity |
+| **Mental** | Focus evaluation and consistency during critical points |
+| **Progression** | Historical trends and personalized goals based on your playing style |
+
+## How It Works
 
 ```
-┌─────────────────┐     ┌──────────────────────┐     ┌───────────────────────┐
-│   Apple Watch   │────▶│  tennis-data-labeler │────▶│  tennis-model-training│
-│  (Sensor Data)  │     │   (Annotation GUI)   │     │    (ML Pipeline)      │
-└─────────────────┘     └──────────────────────┘     └───────────────────────┘
-                                                               │
-                                                               ▼
-                                                     ┌───────────────────┐
-                                                     │  CoreML Model     │
-                                                     │  (iOS/watchOS)    │
-                                                     └───────────────────┘
+    ┌─────────────┐          ┌─────────────┐          ┌─────────────┐
+    │ Apple Watch │  ──────▶ │   AI Model  │  ──────▶ │  Insights   │
+    │  (Sensors)  │          │  (CoreML)   │          │  (Reports)  │
+    └─────────────┘          └─────────────┘          └─────────────┘
+         Play                   Analyze                  Improve
 ```
+
+**Real-time feedback** on your wrist. **Detailed AI reports** after each session with actionable recommendations.
 
 ## Repositories
 
 | Repository | Description |
 |------------|-------------|
 | **tennis-shot-detector** | iOS/watchOS app for real-time stroke detection |
-| **tennis-data-labeler** | PyQt5 GUI for visualizing sensor data, video sync, and manual stroke labeling |
-| **tennis-model-training** | LSTM neural network training pipeline with feature engineering and CoreML export |
-| **website** | Marketing website and landing page |
+| **tennis-data-labeler** | Data annotation tool for training datasets |
+| **tennis-model-training** | ML pipeline: LSTM neural network + CoreML export |
+| **website** | Marketing website — [tennisproai.com](https://tennisproai.com) |
 
-## Supported Strokes
-
-| Stroke | Description |
-|--------|-------------|
-| **Forehand** | Forehand drive |
-| **Backhand** | Backhand drive |
-| **No Stroke** | Non-stroke movements |
-
-## Technology Stack
+## Tech Stack
 
 | Layer | Technologies |
 |-------|--------------|
-| **Data Collection** | Apple Watch (accelerometer, gyroscope, rotation rate) |
-| **Annotation** | Python, PyQt5, Matplotlib |
-| **ML Training** | TensorFlow/Keras, LSTM, scikit-learn |
-| **Experiment Tracking** | Weights & Biases |
-| **Deployment** | CoreML for iOS/watchOS |
+| **Wearable** | Apple Watch (accelerometer, gyroscope, rotation rate @ 100Hz) |
+| **ML Model** | TensorFlow/Keras LSTM → CoreML |
+| **App** | SwiftUI, HealthKit, CoreML |
+| **Backend** | Firebase |
 
 ## Model Performance
 
 | Metric | Value |
 |--------|-------|
-| **Accuracy** | 93% on test set |
-| **Architecture** | 2-layer LSTM (64 → 32 units) |
-| **Features** | 17 engineered features |
-| **Sequence Length** | 200 timesteps (2s @ 100Hz) |
+| Accuracy | **93%** |
+| Architecture | 2-layer LSTM (64 → 32) |
+| Features | 17 engineered signals |
+| Latency | Real-time on-device |
 
 ---
 
 <p align="center">
-  <sub>Built for tennis players who want to improve their game</sub><br/>
-  <sub><strong>Continuous Progression</strong> • <strong>Dynamic Balance</strong> • <strong>Infinite Potential</strong></sub>
+  <strong>Continuous Progression</strong> • <strong>Dynamic Balance</strong> • <strong>Infinite Potential</strong>
+</p>
+
+<p align="center">
+  <a href="https://tennisproai.com">tennisproai.com</a>
 </p>

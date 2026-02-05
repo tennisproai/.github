@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tennisproai/.github/main/profile/assets/logo.svg?v=2" alt="TennisProAI - Infinity Ball" width="240"/>
+  <img src="https://raw.githubusercontent.com/tennisproai/.github/main/profile/assets/logo.svg?v=3" alt="TennisProAI" width="240"/>
 </p>
 
 <h1 align="center">Tennis Pro <span style="color: #D45C11;">AI</span></h1>

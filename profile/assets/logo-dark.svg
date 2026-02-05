@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80">
-  <!-- Infinity Ball - For light backgrounds -->
-  <!-- Deep Clay background for contrast -->
-  <rect x="0" y="0" width="120" height="80" rx="8" fill="#221710"/>
+  <!-- Infinity Ball - For dark backgrounds (Deep Clay #221710) -->
+  <!-- No background - transparent -->
 
   <!-- Orange circle (left) - Primary Ochre -->
   <circle cx="45" cy="40" r="28" stroke="#D45C11" stroke-width="8" fill="none"/>
